@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_BUILD_TYPE Debug)                 #指定编译类型为debug或release
 
-set(leetcode ${./dir_srcs})                       #添加要编译的可执行文件。注意，通过变量WORK来编译
+set(leetcode ${dir_srcs})                       #添加要编译的可执行文件。注意，通过变量WORK来编译
 
 add_executable(leetcode ${leetcode})
 
