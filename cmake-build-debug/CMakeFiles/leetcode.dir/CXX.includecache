@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/twoSum.h
+iostream
+-
+vector
+-
+sstream
+-
+
+/Users/cc/CLionProjects/Leetcode/src/main/main.cpp
+iostream
+-
+twoSum.h
+/Users/cc/CLionProjects/Leetcode/src/main/twoSum.h
+
+/Users/cc/CLionProjects/Leetcode/src/main/twoSum.cpp
+twoSum.h
+/Users/cc/CLionProjects/Leetcode/src/main/twoSum.h
+iostream
+-
+vector
+-
+

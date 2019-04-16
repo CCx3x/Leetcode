@@ -11,6 +11,7 @@
  ********************************************************************************/
 
 #include<iostream>
+#include "twoSum.h"
 
 using namespace std;
 
